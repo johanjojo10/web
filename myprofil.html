@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>BIODATA SAYA</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+		<div class="jlab">
+			<img src="assets/icon/partner.png" alt="Jlab" class="jlab-img" />
+			<h1 class="jlab-title">JLAB X</h1>
+		</div>
+			<nav>
+				<ul>
+				<li><a href="#jasa">JASA</a></li>
+				<li><a href="#mailto:johanf001100@gmail.com ">KONTAK</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello, Johan Febriansyah here!</p>
+				<p class="description">Mahasiswa dari Universitas Teknologi Mataram (UTM)</p>
+				<img src="assets/foto/johan febriansyah 1.jpg" alt="johan febriansyah 1" class="img-foto"/> 
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title">Teknologi Inforamatika (TI)</p>
+				<p class="description">Ngoding aja dulu, jagonya belakangan</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">Mari kerjasama</button>
+				</div>
+			</div>
+			<div class="container">
+					<div class="card" id="jasa">
+						<div class="card-item">
+							<img src="assets/icon/24-hours.png" alt="icon 1.png" class="icon"/>
+							<p class="card-title">Penyedian Nonstop</p>
+							<p class="card-description">Chat aja kalau butuh</p>	
+						</div>
+						<div class="card-item">
+						<img src="assets/icon/512.png" alt="icon 2.png" class="icon"/>
+							<p class="card-title">TEKNIK INFORMATIKA</p>
+							<p class="card-description">Universitas Teknologi Mataram </p>	
+						</div>
+						<div class="card-item">
+						<img src="assets/icon/rating.png" alt="icon 3.png" class="icon"/>
+							<p class="card-title">50 Review</p>
+							<p class="card-description">Mari kerjama saya dengan saya</p>	
+						</div>
+					</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; Johan Febriansyah 2022</p>
+		</footer>
+		
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://instagram.com/johanfb10"
+			}
+			
+			function redirWhatsapp() {
+			window.location.href = "https://wa.me/+6281943465698"
+			}
+			
+		</script>
+	</body>
+</html>
